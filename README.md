@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Drag and Drop - TODO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lista de tareas echo con ReactJS, Typescript, TailwindCSS y la libreria Dnd-Kit.
 
-Currently, two official plugins are available:
+En este proyecto se muestra la creación de columnas de forma dinámica, que hacen referencia a una lista y cada una con sus propias tareas. Tendremos las opciones de crear, eliminar, editar y guardar una lista, asi como también sus tareas. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La funcion de Drag and Drop esta disponible entre las listas para un re ordenamiento y tambien para las tareas dentro de su lista y en otras listas. Es decir, intercambiar tareas entre listas. 
 
-## Expanding the ESLint configuration
+![Example drag and drop todo](https://firebasestorage.googleapis.com/v0/b/storage-images-5578f.appspot.com/o/GLOBAL%2Fdnd-todo%2FRecording.gif?alt=media&token=f706a1e4-7cea-4109-9d80-34b37818422b)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Instalación
+1. Clonar el repositorio.
+2. Instalar las dependencias con tu gestor de paquetes npm favorito. Puede ser `bun` `npm` `pnpm` `bun` u otro.
+3. Ejecutar el proyecto y abrir http://localhost:3000 en el navegador.
+4. Puedes cambiar el puerto en el archivo `./vite.config.ts`
