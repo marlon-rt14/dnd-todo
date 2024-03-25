@@ -6,6 +6,7 @@ En este proyecto se muestra la creación de columnas de forma dinámica, que hac
 
 La funcion de Drag and Drop esta disponible entre las listas para un re ordenamiento y tambien para las tareas dentro de su lista y en otras listas. Es decir, intercambiar tareas entre listas. 
 
+Demo:
 ![Example drag and drop todo](https://firebasestorage.googleapis.com/v0/b/storage-images-5578f.appspot.com/o/GLOBAL%2Fdnd-todo%2FRecording.gif?alt=media&token=f706a1e4-7cea-4109-9d80-34b37818422b)
 
 
